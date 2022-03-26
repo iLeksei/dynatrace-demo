@@ -8,7 +8,7 @@
 ----
 
 PROD:
-1) a deployed app https://dynatrace-demo.herokuapp.com/
+1) a deployed app https://dynatrace-demo.herokuapp.com/site
    health check: curl https://dynatrace-demo.herokuapp.com/health-check
    
 2) docker pull dynatrace/oneagent
