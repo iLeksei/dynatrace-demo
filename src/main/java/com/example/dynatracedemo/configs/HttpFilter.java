@@ -19,7 +19,7 @@ public class HttpFilter implements Filter {
         LOG.info("Request filter: " + servletRequest.getRemoteAddr());
         LOG.info("Synthetic lagging...");
         try {
-            int random = new Random().nextInt(45000);
+            int random = new Random().nextInt(10000);
             LOG.info("Synthetic lagging " + random + " ms...");
             Thread.sleep(random);
         } catch (InterruptedException e) {
