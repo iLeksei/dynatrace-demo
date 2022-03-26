@@ -43,7 +43,7 @@ public class SyntheticErrorsService {
                 LOG.info("Enable infinite loop!");
                 while (!Thread.currentThread().isInterrupted() && isLoopEnabled) {
                     try {
-//                        Thread.sleep(1);
+                        Thread.sleep(1000);
                         counter.incrementAndGet();
                         queue.add(counter);
                         LOG.info("Counter: " + counter.get());
