@@ -22,5 +22,5 @@ command to run from docker image:
    --net=host
    -v /:/mnt/root
    -e ONEAGENT_INSTALLER_SCRIPT_URL="https://fyj02592.live.dynatrace.com/api/v1/deployment/installer/agent/unix/default/latest?arch=x86&flavor=default"
-   -e ONEAGENT_INSTALLER_DOWNLOAD_TOKEN=dt0c01.ZYUTTIOXQ3ROHMLRNRSNTBZR.KUPBIG5QR6EFWZR7YSPNHUM2UBTWDMB4OQIE6CI56YDQD65QWUG345NYF6L6E3LD
+   -e ONEAGENT_INSTALLER_DOWNLOAD_TOKEN=<token>
    dynatrace/oneagent <INSTALLER_PARAMETERS>
